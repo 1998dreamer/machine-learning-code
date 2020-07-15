@@ -44,9 +44,9 @@ acc=int(acc)
 print(acc)
 
 #save the accuracy in a file 
-f = open("/taskCode/accuracy.txt",'w+')
+f = open("/dlcode/accuracy.txt",'w+')
 f.write(str(acc))
 f.close()
 
 #save the model for future use
-model.save('/taskCode/ann.h5')
+model.save('/dlcode/trainedmodel.h5')
