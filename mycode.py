@@ -6,7 +6,7 @@ from keras.layers import Dense
 from keras.models import Sequential
 
 #load dataset
-dataset = pd.read_csv('/taskCode/Churn_Modelling.csv')
+dataset = pd.read_csv('/dlcode/Churn_Modelling.csv')
 
 y = dataset['Exited']
 X = dataset[['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard',
