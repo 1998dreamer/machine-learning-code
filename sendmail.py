@@ -5,10 +5,10 @@ server.starttls()
 server.login("bhardwaj73700@gmail.com", "sonbhardwaj2!@#maamila")
 
 #sender
-from="bhardwaj73700@gmail.com"
+from = 'bhardwaj73700@gmail.com'
 
 #receiver
-to="bhardwajnbhardwaj2015@gmail.com"
+to = 'bhardwajnbhardwaj2015@gmail.com'
 
 # message 
 message_success = "finally got more than 80% accuracy"
