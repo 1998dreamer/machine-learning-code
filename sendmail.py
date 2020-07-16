@@ -2,16 +2,16 @@ import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
 
-s.login("bhardwaj73700@gmail.com", "")
+s.login("bhardwaj73700@gmail.com", "sonbhardwaj2!@#maamila")
 
 
-    # message
-message_success = "Achieved the accuracy we wanted"
+    # message 
+message_success = "finally got more than 80% accuracy"
 
 
-    # sending the mail
+    # to send  mail
 s.sendmail("bhardwaj73700@gmail.com", "bhardwajnbhardwaj2015@gmail.com", message_success)
 
 
-    # terminating the session
+    # to terminate the session
 s.quit()
