@@ -4,18 +4,14 @@ server.starttls()
 
 server.login("bhardwaj73700@gmail.com", "sonbhardwaj2!@#maamila")
 
-#sender
-from = 'bhardwaj73700@gmail.com'
 
-#receiver
-to = 'bhardwajnbhardwaj2015@gmail.com'
 
 # message 
-message_success = "finally got more than 80% accuracy"
+message = "finally got more than 80% accuracy"
 
 
 # to send  mail
-server.sendmail(from, to, message_success)
+server.sendmail('bhardwaj73700@gmail.com', 'bhardwajnbhardwaj2015@gmail.com', message)
 
 
 # to terminate the session
