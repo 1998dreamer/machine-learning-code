@@ -6,7 +6,7 @@ from keras.layers import Dense
 from keras.models import Sequential
 
 #load dataset
-dataset = pd.read_csv('/dlcode/Churn_Modelling.csv')
+dataset = pd.read_csv('/code/Churn_Modelling.csv')
 
 y = dataset['Exited']
 X = dataset[['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard',
@@ -44,9 +44,9 @@ acc=int(acc)
 print(acc)
 
 #save the accuracy in a file 
-f = open("/dlcode/accuracy.txt",'w+')
+f = open("/code/accuracy.txt",'w+')
 f.write(str(acc))
 f.close()
 
 #save the model for future use
-model.save('/dlcode/trainedmodel.h5')
+model.save('/code/trainedmodel.h5')
